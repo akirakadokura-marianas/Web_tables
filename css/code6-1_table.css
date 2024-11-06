@@ -1,0 +1,103 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 1
+   
+   Author:   Coding Challenge 1   
+   Date:     2021-03-01
+   Filename: code6-1_table.css
+
+*/
+
+table {
+   border-collapse: collapse;
+   border: 20px groove gray;
+}
+
+th, td {
+   border: 1px solid black;
+   padding: 10px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+caption {
+   caption-side: bottom;
+   text-align: right;
+   font-size: 1.5em;
+}
+
+table col#daysOfWeek {
+   background-color: rgb(51, 150, 117);
+   width: 75px;
+}
+
+table col#hoursOfDays {
+   width: 10px;
+   display: colu;
+}
+
+thead {
+   background-color:cadetblue;
+   color: white;
+}
+
+table .sleep {
+   background-color: rgb(150, 103, 194);
+}
+
+table .wakeUp {
+   background-color: yellow;
+}
+
+table .getReady {
+   background-color:rgb(56, 101, 103);
+   color: white;
+}
+
+table .work {
+   background-color:aquamarine;
+}
+
+table .CS222 {
+   background-color: yellowgreen;
+}
+
+table .SO297 {
+   background-color: chocolate;
+}
+
+table .soccer {
+   background-color: blue;
+   color: whitesmoke;
+}
+
+table #eating {
+   background-color: burlywood;
+}
+
+table #prep {
+   background-color: rgb(45, 141, 205);
+}
+
+table #homework {
+   background-color: cornflowerblue;
+}
+
+table #leisure {
+   background-color: darkgray;
+}
+
+table #reading {
+   background-color: darkkhaki;
+}
+
+table #home {
+   background-color: darksalmon;
+}
+
+table #chores {
+   background-color: red;
+}
